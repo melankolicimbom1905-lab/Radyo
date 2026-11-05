@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <queries>
-        <package android:name="com.miui.fm" />
-        <package android:name="com.android.fmradio" />
-        <package android:name="com.mediatek.fmradio" />
-        <package android:name="com.sec.android.app.fm" />
-        <package android:name="com.caf.fmradio" />
-        <package android:name="com.motorola.fmplayer" />
-        <package android:name="com.huawei.android.FMRadio" />
-    </queries>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <application
         android:label="FM Radyo"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
